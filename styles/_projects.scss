@@ -1,1 +1,23 @@
 @import 'general';
+
+.container_projects-presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.projects-presentation {
+    width: 50%;
+}
+.projects-table {
+    width: 30%;
+    align-self: end;
+    border-collapse: collapse;
+    
+}
+td ,th {
+    border-bottom: solid 1px #979797;
+}
+.container_projects-images {
+
+}

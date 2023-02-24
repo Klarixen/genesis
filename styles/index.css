@@ -98,6 +98,34 @@ h1 {
   line-height: 60px;
 }
 
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  opacity: 0.8;
+}
+
+.container_projects-presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects-presentation {
+  width: 50%;
+}
+
+.projects-table {
+  width: 30%;
+  align-self: end;
+  border-collapse: collapse;
+}
+
+td, th {
+  border-bottom: solid 1px #979797;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   color: 111111;
@@ -198,6 +226,14 @@ h1 {
   line-height: 60px;
 }
 
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  opacity: 0.8;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   color: 111111;
@@ -296,12 +332,24 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  opacity: 0.8;
 }
 
 header {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
+}
+
+.head-text_small {
+  opacity: 1;
 }
 
 .head-text_big {
@@ -324,10 +372,9 @@ header {
 .images-container {
   display: grid;
   width: 100%;
-  /*height: 1960px;*/
   grid-template-rows: repeat(32, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-gap: 10px;
 }
 
 .image1 {
@@ -388,5 +435,73 @@ header {
 .image12 {
   grid-row: 23/32;
   grid-column: 2/3;
+}
+
+.container_services {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_services-text {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.services-text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.container_services-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 55%;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0, 6;
+}
+
+.services-list_item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0, 6;
+}
+
+ul {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0, 6;
+}
+
+table {
+  width: 100%;
+  margin-top: 40px;
+  border-bottom-style: solid;
+  border-bottom: 100%;
+  border-color: #D8D8D8;
+}
+
+.awards-table {
+  border-top-style: solid;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  text-align: end;
+  padding: 20px;
 }
 /*# sourceMappingURL=index.css.map */
