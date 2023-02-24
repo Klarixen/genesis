@@ -1,0 +1,106 @@
+$font-family: 'Mulish', sans-serif;
+$text-color:111111;
+
+
+
+body {
+    font-family: $font-family;
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+
+}
+/*Styling of navigation on all pages*/
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+
+}
+.top-nav__logo {
+    margin: 20px auto;
+}
+.top-nav__navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: flex-end;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+/*Styling of all links*/
+a {
+    text-decoration: none;
+    color:$text-color;
+    font-weight: 700;
+    font-family: $font-family;
+}
+a:visited {
+    color: $text-color;
+
+}
+
+a:hover {
+    color: gray;
+
+}
+
+a:active {
+    color: $text-color;
+
+}
+
+/*styling of footer/navigation on all pages*/
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+
+}
+.foot-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+
+}
+.foot-nav__logo {
+    width:70%;
+}
+.foot-nav__navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+/*General styling consistent on all pages*/
+
+h1 {
+    font-family: $font-family;
+    color: $text-color;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+}

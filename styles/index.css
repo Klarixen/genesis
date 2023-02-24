@@ -1,2 +1,304 @@
+body {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
 
+/*Styling of navigation on all pages*/
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.top-nav__logo {
+  margin: 20px auto;
+}
+
+.top-nav__navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+/*Styling of all links*/
+a {
+  text-decoration: none;
+  color: 111111;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+
+a:visited {
+  color: 111111;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: 111111;
+}
+
+/*styling of footer/navigation on all pages*/
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav__logo {
+  width: 70%;
+}
+
+.foot-nav__navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+/*General styling consistent on all pages*/
+h1 {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+
+/*Styling of navigation on all pages*/
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.top-nav__logo {
+  margin: 20px auto;
+}
+
+.top-nav__navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+/*Styling of all links*/
+a {
+  text-decoration: none;
+  color: 111111;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+
+a:visited {
+  color: 111111;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: 111111;
+}
+
+/*styling of footer/navigation on all pages*/
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav__logo {
+  width: 70%;
+}
+
+.foot-nav__navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+/*General styling consistent on all pages*/
+h1 {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+
+/*Styling of navigation on all pages*/
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.top-nav__logo {
+  margin: 20px auto;
+}
+
+.top-nav__navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+/*Styling of all links*/
+a {
+  text-decoration: none;
+  color: 111111;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+
+a:visited {
+  color: 111111;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: 111111;
+}
+
+/*styling of footer/navigation on all pages*/
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.foot-nav__logo {
+  width: 70%;
+}
+
+.foot-nav__navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+/*General styling consistent on all pages*/
+h1 {
+  font-family: "Mulish", sans-serif;
+  color: 111111;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.images-container {
+  display: grid;
+}
 /*# sourceMappingURL=index.css.map */
