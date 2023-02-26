@@ -110,19 +110,49 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .projects-presentation {
   width: 50%;
 }
 
-.projects-table {
+.conatiner_projects-table {
   width: 30%;
   align-self: end;
-  border-collapse: collapse;
 }
 
-td, th {
+.projects-table {
+  border-collapse: collapse;
   border-bottom: solid 1px #979797;
+  opacity: 0, 3;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+.projects-table th {
+  border-bottom: solid 1px #979797;
+  color: #979797;
+  /*was not able to make the table-text opaque*/
+}
+.projects-table td {
+  border-bottom: solid 1px #979797;
+}
+
+.container_projects-images {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container_projects-images .big-image-text {
+  justify-content: center;
+  align-items: center;
+}
+.container_projects-images .small-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=_projects.css.map */
