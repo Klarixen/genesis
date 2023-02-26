@@ -1,1 +1,56 @@
 @import 'general';
+
+.container_text-and-form {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-text {
+    width: 40%;
+
+}
+
+.container_contacts-form {
+    width: 40%;
+    form {
+        display: flex;
+        flex-direction: column;
+        opacity: 0,6;
+       
+    }
+    input {
+        border-bottom: solid 1px #979797 ;
+        border-top:none ;
+        border-left:none ;
+        border-right: none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px;
+        margin: 20px;
+        cursor: text;
+    }
+    button {
+        margin: 15px;
+        padding: 15px;
+        border: none;
+        width:25%;
+        background-color: #4A4FF2;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+   }
+           
+   button:hover {
+    background-color: #9699f7;
+    cursor: pointer;
+}
+
+.container_contacts-image {
+    width: 100%;
+    margin: 50px;
+}
